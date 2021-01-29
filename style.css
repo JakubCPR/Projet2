@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     display: flex;
     align-items: center;
@@ -11,14 +14,14 @@ body {
     display: flex;
     align-items: stretch;
     flex-direction: row;
-    width: 2480px;
 }
 
 /*---------------------------------------------------*/
 .element_1 {
     width: 25%;
     background-color: orange;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -32,7 +35,6 @@ a {
 a img {
     border-radius: 50%;
     width: 65%;
-    height: 65%;
 }
 
 .element_1_title {
@@ -56,7 +58,6 @@ a img {
 
 .lipsum {
     padding: 20px;
-    text-align: justify;
     margin-bottom: auto;
 }
 
@@ -215,6 +216,7 @@ ul {
 
     .element_2 {
         width: 100%;
+        padding: 0.4%;
     }
 
 
